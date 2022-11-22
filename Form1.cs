@@ -175,20 +175,63 @@ namespace GUICalculator
 
         private void divideBtn_Click(object sender, EventArgs e)
         {
+            FirstNum = decimal.Parse(textBox1.Text);
             textBox1.Clear();
             operators = "/";
         }
 
         private void multiBtn_Click(object sender, EventArgs e)
         {
+            FirstNum = decimal.Parse(textBox1.Text);
             textBox1.Clear();
             operators = "*";
         }
 
         private void percentBtn_Click(object sender, EventArgs e)
         {
+            FirstNum = decimal.Parse(textBox1.Text);
             textBox1.Clear();
             operators = "%";
+        }
+
+        private void enterBtn_Click(object sender, EventArgs e)
+        {
+            switch (operators)
+            {
+                case "-":
+                    SecondNum= decimal.Parse(textBox1.Text);
+                    Results =  FirstNum - SecondNum;
+                    textBox1.Text = Results.ToString();
+                    break;
+
+                case "+":
+                    SecondNum = decimal.Parse(textBox1.Text);
+                    Results = FirstNum + SecondNum;
+                    textBox1.Text = Results.ToString();
+                    break;
+                case "/":
+                    SecondNum = decimal.Parse(textBox1.Text);
+                    Results = FirstNum / SecondNum;
+                    textBox1.Text = Results.ToString();
+                    break;
+                case "*":
+                    SecondNum = decimal.Parse(textBox1.Text);
+                    Results = FirstNum * SecondNum;
+                    textBox1.Text = Results.ToString();
+                    break;
+                case "%":
+                    SecondNum = decimal.Parse(textBox1.Text);
+                    Results = FirstNum % SecondNum;
+                    textBox1.Text = Results.ToString();
+                    break;
+            }
+        }
+
+        private void clearBtn_Click(object sender, EventArgs e)
+        {
+            FirstNum = 0.0m;
+            SecondNum = 0.0m;
+            textBox1.Text = "0";
         }
     }
 }

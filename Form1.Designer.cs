@@ -53,8 +53,10 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.textBox1.Location = new System.Drawing.Point(51, 15);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(337, 42);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
@@ -62,216 +64,238 @@
             // 
             // sevenBtn
             // 
+            this.sevenBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.sevenBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sevenBtn.Location = new System.Drawing.Point(40, 85);
             this.sevenBtn.Name = "sevenBtn";
             this.sevenBtn.Size = new System.Drawing.Size(53, 46);
             this.sevenBtn.TabIndex = 1;
             this.sevenBtn.Text = "7";
-            this.sevenBtn.UseVisualStyleBackColor = true;
+            this.sevenBtn.UseVisualStyleBackColor = false;
             this.sevenBtn.Click += new System.EventHandler(this.sevenBtn_Click);
             // 
             // fourBtn
             // 
+            this.fourBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.fourBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fourBtn.Location = new System.Drawing.Point(40, 137);
             this.fourBtn.Name = "fourBtn";
             this.fourBtn.Size = new System.Drawing.Size(53, 46);
             this.fourBtn.TabIndex = 2;
             this.fourBtn.Text = "4";
-            this.fourBtn.UseVisualStyleBackColor = true;
+            this.fourBtn.UseVisualStyleBackColor = false;
             this.fourBtn.Click += new System.EventHandler(this.fourBtn_Click);
             // 
             // oneBtn
             // 
+            this.oneBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.oneBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oneBtn.Location = new System.Drawing.Point(40, 189);
             this.oneBtn.Name = "oneBtn";
             this.oneBtn.Size = new System.Drawing.Size(53, 46);
             this.oneBtn.TabIndex = 3;
             this.oneBtn.Text = "1";
-            this.oneBtn.UseVisualStyleBackColor = true;
+            this.oneBtn.UseVisualStyleBackColor = false;
             this.oneBtn.Click += new System.EventHandler(this.oneBtn_Click);
             // 
             // zeroBtn
             // 
+            this.zeroBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.zeroBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zeroBtn.Location = new System.Drawing.Point(99, 241);
             this.zeroBtn.Name = "zeroBtn";
             this.zeroBtn.Size = new System.Drawing.Size(53, 46);
             this.zeroBtn.TabIndex = 4;
             this.zeroBtn.Text = "0";
-            this.zeroBtn.UseVisualStyleBackColor = true;
+            this.zeroBtn.UseVisualStyleBackColor = false;
             this.zeroBtn.Click += new System.EventHandler(this.zeroBtn_Click);
             // 
             // dotBtn
             // 
+            this.dotBtn.BackColor = System.Drawing.Color.Teal;
             this.dotBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dotBtn.Location = new System.Drawing.Point(371, 137);
             this.dotBtn.Name = "dotBtn";
             this.dotBtn.Size = new System.Drawing.Size(53, 46);
             this.dotBtn.TabIndex = 8;
             this.dotBtn.Text = ".";
-            this.dotBtn.UseVisualStyleBackColor = true;
+            this.dotBtn.UseVisualStyleBackColor = false;
             this.dotBtn.Click += new System.EventHandler(this.dotBtn_Click);
             // 
             // twoBtn
             // 
+            this.twoBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.twoBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.twoBtn.Location = new System.Drawing.Point(99, 189);
             this.twoBtn.Name = "twoBtn";
             this.twoBtn.Size = new System.Drawing.Size(53, 46);
             this.twoBtn.TabIndex = 7;
             this.twoBtn.Text = "2";
-            this.twoBtn.UseVisualStyleBackColor = true;
+            this.twoBtn.UseVisualStyleBackColor = false;
             this.twoBtn.Click += new System.EventHandler(this.twoBtn_Click);
             // 
             // fiveBtn
             // 
+            this.fiveBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.fiveBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fiveBtn.Location = new System.Drawing.Point(99, 137);
             this.fiveBtn.Name = "fiveBtn";
             this.fiveBtn.Size = new System.Drawing.Size(53, 46);
             this.fiveBtn.TabIndex = 6;
             this.fiveBtn.Text = "5";
-            this.fiveBtn.UseVisualStyleBackColor = true;
+            this.fiveBtn.UseVisualStyleBackColor = false;
             this.fiveBtn.Click += new System.EventHandler(this.fiveBtn_Click);
             // 
             // eightBtn
             // 
+            this.eightBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.eightBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eightBtn.Location = new System.Drawing.Point(99, 85);
             this.eightBtn.Name = "eightBtn";
             this.eightBtn.Size = new System.Drawing.Size(53, 46);
             this.eightBtn.TabIndex = 5;
             this.eightBtn.Text = "8";
-            this.eightBtn.UseVisualStyleBackColor = true;
+            this.eightBtn.UseVisualStyleBackColor = false;
             this.eightBtn.Click += new System.EventHandler(this.eightBtn_Click);
             // 
             // enterBtn
             // 
+            this.enterBtn.BackColor = System.Drawing.Color.SeaGreen;
             this.enterBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterBtn.Location = new System.Drawing.Point(312, 241);
             this.enterBtn.Name = "enterBtn";
             this.enterBtn.Size = new System.Drawing.Size(112, 46);
             this.enterBtn.TabIndex = 12;
             this.enterBtn.Text = "=";
-            this.enterBtn.UseVisualStyleBackColor = true;
+            this.enterBtn.UseVisualStyleBackColor = false;
+            this.enterBtn.Click += new System.EventHandler(this.enterBtn_Click);
             // 
             // threeBtn
             // 
+            this.threeBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.threeBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.threeBtn.Location = new System.Drawing.Point(158, 189);
             this.threeBtn.Name = "threeBtn";
             this.threeBtn.Size = new System.Drawing.Size(53, 46);
             this.threeBtn.TabIndex = 11;
             this.threeBtn.Text = "3";
-            this.threeBtn.UseVisualStyleBackColor = true;
+            this.threeBtn.UseVisualStyleBackColor = false;
             this.threeBtn.Click += new System.EventHandler(this.threeBtn_Click);
             // 
             // sixBtn
             // 
+            this.sixBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.sixBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sixBtn.Location = new System.Drawing.Point(158, 137);
             this.sixBtn.Name = "sixBtn";
             this.sixBtn.Size = new System.Drawing.Size(53, 46);
             this.sixBtn.TabIndex = 10;
             this.sixBtn.Text = "6";
-            this.sixBtn.UseVisualStyleBackColor = true;
+            this.sixBtn.UseVisualStyleBackColor = false;
             this.sixBtn.Click += new System.EventHandler(this.sixBtn_Click);
             // 
             // nineBtn
             // 
+            this.nineBtn.BackColor = System.Drawing.Color.SlateBlue;
             this.nineBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nineBtn.Location = new System.Drawing.Point(158, 85);
             this.nineBtn.Name = "nineBtn";
             this.nineBtn.Size = new System.Drawing.Size(53, 46);
             this.nineBtn.TabIndex = 9;
             this.nineBtn.Text = "9";
-            this.nineBtn.UseVisualStyleBackColor = true;
+            this.nineBtn.UseVisualStyleBackColor = false;
             this.nineBtn.Click += new System.EventHandler(this.nineBtn_Click);
             // 
             // percentBtn
             // 
+            this.percentBtn.BackColor = System.Drawing.Color.Teal;
             this.percentBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.percentBtn.Location = new System.Drawing.Point(371, 189);
             this.percentBtn.Name = "percentBtn";
             this.percentBtn.Size = new System.Drawing.Size(53, 46);
             this.percentBtn.TabIndex = 16;
             this.percentBtn.Text = "%";
-            this.percentBtn.UseVisualStyleBackColor = true;
+            this.percentBtn.UseVisualStyleBackColor = false;
             this.percentBtn.Click += new System.EventHandler(this.percentBtn_Click);
             // 
             // divideBtn
             // 
+            this.divideBtn.BackColor = System.Drawing.Color.Teal;
             this.divideBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divideBtn.Location = new System.Drawing.Point(253, 189);
             this.divideBtn.Name = "divideBtn";
             this.divideBtn.Size = new System.Drawing.Size(53, 46);
             this.divideBtn.TabIndex = 15;
             this.divideBtn.Text = "/";
-            this.divideBtn.UseVisualStyleBackColor = true;
+            this.divideBtn.UseVisualStyleBackColor = false;
             this.divideBtn.Click += new System.EventHandler(this.divideBtn_Click);
             // 
             // minusBtn
             // 
+            this.minusBtn.BackColor = System.Drawing.Color.Teal;
             this.minusBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusBtn.Location = new System.Drawing.Point(253, 137);
             this.minusBtn.Name = "minusBtn";
             this.minusBtn.Size = new System.Drawing.Size(53, 46);
             this.minusBtn.TabIndex = 14;
             this.minusBtn.Text = "-";
-            this.minusBtn.UseVisualStyleBackColor = true;
+            this.minusBtn.UseVisualStyleBackColor = false;
             this.minusBtn.Click += new System.EventHandler(this.minusBtn_Click);
             // 
             // clearBtn
             // 
+            this.clearBtn.BackColor = System.Drawing.Color.SeaGreen;
             this.clearBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearBtn.Location = new System.Drawing.Point(318, 85);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(106, 46);
             this.clearBtn.TabIndex = 13;
             this.clearBtn.Text = "Clear";
-            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.UseVisualStyleBackColor = false;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // plusMinusBtn
             // 
+            this.plusMinusBtn.BackColor = System.Drawing.Color.Teal;
             this.plusMinusBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusMinusBtn.Location = new System.Drawing.Point(253, 241);
             this.plusMinusBtn.Name = "plusMinusBtn";
             this.plusMinusBtn.Size = new System.Drawing.Size(53, 46);
             this.plusMinusBtn.TabIndex = 20;
             this.plusMinusBtn.Text = "-/+";
-            this.plusMinusBtn.UseVisualStyleBackColor = true;
+            this.plusMinusBtn.UseVisualStyleBackColor = false;
             this.plusMinusBtn.Click += new System.EventHandler(this.plusMinusBtn_Click);
             // 
             // multiBtn
             // 
+            this.multiBtn.BackColor = System.Drawing.Color.Teal;
             this.multiBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.multiBtn.Location = new System.Drawing.Point(312, 189);
             this.multiBtn.Name = "multiBtn";
             this.multiBtn.Size = new System.Drawing.Size(53, 46);
             this.multiBtn.TabIndex = 19;
             this.multiBtn.Text = "*";
-            this.multiBtn.UseVisualStyleBackColor = true;
+            this.multiBtn.UseVisualStyleBackColor = false;
             this.multiBtn.Click += new System.EventHandler(this.multiBtn_Click);
             // 
             // plusBtn
             // 
+            this.plusBtn.BackColor = System.Drawing.Color.Teal;
             this.plusBtn.Font = new System.Drawing.Font("Mongolian Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusBtn.Location = new System.Drawing.Point(312, 137);
             this.plusBtn.Name = "plusBtn";
             this.plusBtn.Size = new System.Drawing.Size(53, 46);
             this.plusBtn.TabIndex = 18;
             this.plusBtn.Text = "+";
-            this.plusBtn.UseVisualStyleBackColor = true;
+            this.plusBtn.UseVisualStyleBackColor = false;
             this.plusBtn.Click += new System.EventHandler(this.plusBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 403);
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.ClientSize = new System.Drawing.Size(457, 311);
             this.Controls.Add(this.plusMinusBtn);
             this.Controls.Add(this.multiBtn);
             this.Controls.Add(this.plusBtn);
@@ -292,6 +316,8 @@
             this.Controls.Add(this.fourBtn);
             this.Controls.Add(this.sevenBtn);
             this.Controls.Add(this.textBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
